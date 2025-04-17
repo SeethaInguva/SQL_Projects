@@ -39,6 +39,5 @@ All questions are sourced from [DataLemur](https://datalemur.com/), a platform d
 ---
 
 Feel free to explore, learn, and use these examples to sharpen your own SQL skills. 🚀
-```
 
 
