@@ -1,4 +1,3 @@
--- Creating database
 Create database dannys_diner
 
 ------------------------------------------------Creating tables for dannys_diner database-------------------------------------------------------------------------
