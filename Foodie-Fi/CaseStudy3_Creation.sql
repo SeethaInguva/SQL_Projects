@@ -2714,7 +2714,6 @@ VALUES
   start_date DATE
 );
 
-delete  Subscriptions_sample 
 INSERT INTO Subscriptions_sample
   (customer_id, plan_id, start_date)
 VALUES
@@ -2722,9 +2721,9 @@ VALUES
   ('1', '1', '2020-08-08'),
   ('2', '0', '2020-09-20'),
   ('2', '3', '2020-09-27'),
-    ('11', '0', '2020-11-19'),
+  ('11', '0', '2020-11-19'),
   ('11', '4', '2020-11-26'),
-    ('13', '0', '2020-12-15'),
+  ('13', '0', '2020-12-15'),
   ('13', '1', '2020-12-22'),
   ('13', '2', '2021-03-29'),
   ('15', '0', '2020-03-17'),
@@ -2738,11 +2737,6 @@ VALUES
   ('19', '0', '2020-06-22'),
   ('19', '2', '2020-06-29'),
   ('19', '3', '2020-08-29')
-
-  select * from plans
-  select * from subscriptions
-  select customer_id,plan_name, price from Subscriptions_sample ss left join plans pl on ss.plan_id =pl.plan_id
-  select * from Subscriptions_sample group by customer_id
 
   
 
